@@ -2,7 +2,7 @@
 
 This repository consists of a SARIMA (Seasonal Autoregressive Integrated Moving Average) forecasting model in Python to predict electricity demand in NSW, VIC, QLD, TAS and SA.
 
-I have downloaded, cleaned and put together into CSV files electricity demand and electricity price data comprising of over a million data points from AEMO to build a pipeline that automates the (p,d,q) selection for the SARIMA model and outputs forecast values using the best fitting model (using the Bayesian Information Criterion).
+I have downloaded, cleaned and put together into CSV files electricity demand and electricity price data comprising of over a million data points from the Australian Energy Market Operator (AEMO) to build a pipeline that automates the (p,d,q) selection for the SARIMA model and outputs forecast values using the best fitting model (using the Bayesian Information Criterion).
 
 For the period between 01-01-2019 and 31-12-2020, frequency of observations is every 30 minutes.
 Fore the period after that until 19-12-2021, the frequency of observations is every five minutes.
